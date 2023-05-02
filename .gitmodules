@@ -1,0 +1,9 @@
+[submodule "auth"]
+	path = auth
+	url = https://github.com/Hex09AF/mf-react-learn-auth.git
+[submodule "dashboard"]
+	path = dashboard
+	url = https://github.com/Hex09AF/mf-react-learn-dashboard.git
+[submodule "shell"]
+	path = shell
+	url = https://github.com/Hex09AF/mf-react-learn-shell.git

@@ -1,0 +1,27 @@
+{
+  "name": "mf-react-learn",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "./auth",
+    "./dashboard",
+    "./shell"
+  ],
+  "scripts": {
+    "start": "concurrently \"npm --prefix auth run start\" \"npm --prefix dashboard run start\" \"npm --prefix shell run start\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hex09AF/mf-react-learn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hex09AF/mf-react-learn/issues"
+  },
+  "homepage": "https://github.com/Hex09AF/mf-react-learn#readme",
+  "devDependencies": {
+    "concurrently": "7.6.0",
+    "wait-on": "7.0.1"
+  }
+}
